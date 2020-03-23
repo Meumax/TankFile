@@ -10,6 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * 每次开启五个敌人
+ * 攻击按键：W
+ */
 
 public class TankClient extends Frame
 {
@@ -31,7 +35,7 @@ public class TankClient extends Frame
 	public TankClient()
 	{
 		Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
-		this.setTitle("坦克大战游戏V1.0");
+		this.setTitle("坦克大战游戏V1.1");
 		this.setSize(WIDTH, HEIGHT);
 		this.setLocation((dimension.width-WIDTH)/2, (dimension.height-HEIGHT)/2);
 		this.setBackground(new Color(210, 239, 101));//颜色
